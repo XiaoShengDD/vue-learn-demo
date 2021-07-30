@@ -6,7 +6,7 @@ const routes = [{
     path: '/sync',
     name: 'sync',
     label: "sync",
-    component: () => import('@/views/sync')
+    component: () => import('@/view/sync')
 }, ]
 
 const router = new VueRouter({
